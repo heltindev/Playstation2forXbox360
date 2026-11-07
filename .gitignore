@@ -1,0 +1,35 @@
+# Commercial and console-specific research artifacts: never commit
+*.iso
+*.ISO
+*.chd
+*.cso
+*.cue
+*.xex
+*.elf
+*.ELF
+*.irx
+*.IRX
+*.vag
+*.VAG
+*.pss
+*.PSS
+private-research/
+research-private/
+.private/
+disc-dumps/
+game-assets/
+
+# Local build and temporary output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.obj
+*.o
+*.a
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc

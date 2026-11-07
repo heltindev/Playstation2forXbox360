@@ -1,0 +1,2 @@
+path,size_bytes,sha256,magic_or_header,hypothesis,confidence,notes
+example/SYNTHETIC_FILE.DAT,0,,unknown,synthetic demonstration,low,replace with private metadata only

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="title desc">
+<title id="title">PlayStation 2 to Xbox 360 research field guide</title>
+<desc id="desc">Dark blue and green technical banner with processor icon and forward arrow.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080e1d"/><stop offset=".54" stop-color="#101d31"/><stop offset="1" stop-color="#09271e"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4e90ff"/><stop offset="1" stop-color="#20d996"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#25cfa4" stop-opacity=".25"/><stop offset="1" stop-color="#25cfa4" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#82adc5" stroke-opacity=".085"/></pattern>
+</defs>
+<rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="340" rx="18" fill="url(#grid)"/>
+<ellipse cx="1035" cy="85" rx="320" ry="250" fill="url(#glow)"/>
+<rect x="1" y="1" width="1198" height="338" rx="17" fill="none" stroke="url(#accent)" stroke-opacity=".5" stroke-width="2"/>
+<g fill="none" stroke-width="2" opacity=".75">
+<rect x="860" y="84" width="120" height="120" rx="18" stroke="#4e90ff"/>
+<rect x="874" y="98" width="92" height="92" rx="10" stroke="#4e90ff" opacity=".5"/>
+<circle cx="920" cy="144" r="26" stroke="#87aeff" stroke-dasharray="7 6"/>
+<path d="M920 60v24M920 204v22M837 144h23M980 144h20" stroke="#4e90ff"/>
+<path d="M994 144h41m0 0-12-12m12 12-12 12" stroke="#23dd98" stroke-width="5"/>
+<rect x="1045" y="98" width="100" height="100" rx="18" stroke="#23dd98"/>
+<path d="M1072 147h48m-24-24v48" stroke="#23dd98" stroke-linecap="round"/>
+</g>
+<text x="70" y="63" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="4" fill="#79cddc">ENGINEERING FIELD GUIDE  /  001</text>
+<text x="68" y="154" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#f5f9ff">PLAYSTATION 2</text>
+<text x="70" y="226" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="800" letter-spacing="-2" fill="#75f3b6">TO XBOX 360</text>
+<path d="M70 253h607" stroke="url(#accent)" stroke-width="3" opacity=".75"/>
+<text x="70" y="286" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="2.5" fill="#bacbdc">REVERSE ENGINEERING  •  PORTING  •  HOMEBREW</text>
+<text x="70" y="315" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#83a0b5">A technical roadmap — not an automatic game converter</text>
+</svg>
