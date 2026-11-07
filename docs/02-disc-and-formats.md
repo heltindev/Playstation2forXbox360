@@ -4,6 +4,8 @@
 
 > **Goal:** Create a trustworthy inventory of the executable, modules, assets and data layouts before writing a port.
 
+**Recommended tools:** [7-Zip](https://www.7-zip.org/) for supported images, [ImHex](https://github.com/WerWolv/ImHex) for binary headers, and the [read-only disc inventory script](../tools/disc_inventory.py) for already extracted folders. See the [tool directory](15-toolbox.md#stage-a--identify-the-disc-and-the-boot-executable).
+
 ## No universal PS2 game layout
 
 A PlayStation 2 game disc often includes a filesystem, a startup configuration and some combination of EE executables, IOP modules, cutscenes, sound archives, textures, models and proprietary resource packs. Names and extensions vary from title to title.

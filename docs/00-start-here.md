@@ -31,6 +31,8 @@ A small, legally reusable program can teach the same architectural concepts whil
 - Reverse engineering: disassembly, call graphs, data references and experimental verification.
 - Xbox 360 homebrew: independent toolchains, actual hardware and basic debugging.
 
+**Need programs and download links?** Start with [Chapter 15: Essential Software and Tools](15-toolbox.md), then follow [Chapter 16: Practical Workflows](16-practical-workflows.md). You can run `python tools/check_environment.py` from the repository root to inspect command-line prerequisites.
+
 ## Private research layout
 
 ```text

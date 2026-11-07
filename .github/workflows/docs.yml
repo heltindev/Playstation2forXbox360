@@ -21,3 +21,5 @@ jobs:
           python-version: "3.11"
       - name: Verify chapter structure and local links
         run: python tools/check_docs.py
+      - name: Run synthetic inventory tests
+        run: python -m unittest discover -s tools -p "test_*.py" -v

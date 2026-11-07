@@ -4,6 +4,8 @@
 
 > **Goal:** Establish whether a new port behaves like the original, not merely whether it displays a frame.
 
+**Test software:** [PCSX2](https://pcsx2.net/) for source observations, [XSDK](https://github.com/xenosworks/xsdk) logs on actual hardware, and optional [Xenia](https://github.com/xenia-project/xenia) smoke tests. See [practical workflow 6](16-practical-workflows.md#workflow-6--verify-a-vertical-slice).
+
 ## Test at three levels
 
 | Test level | What it verifies | Example |

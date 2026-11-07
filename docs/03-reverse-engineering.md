@@ -4,6 +4,8 @@
 
 > **Goal:** Turn disassembly and runtime observations into testable, evidence-backed specifications.
 
+**Recommended tools:** [Ghidra](https://ghidra-sre.org/) + the [PCSX2 debugger](https://pcsx2.net/docs/advanced/debugger/), with [Cutter](https://cutter.re/) as an optional alternative. Use [the tool directory](15-toolbox.md#stage-b--understand-the-executable-and-runtime-behavior) and [practical workflow 2](16-practical-workflows.md#workflow-2--identify-what-one-game-function-does).
+
 ## Two forms of evidence
 
 **Static analysis:** Inspect executable structure, machine instructions, constants, strings, cross-references, call relationships, data tables and decompiler output.

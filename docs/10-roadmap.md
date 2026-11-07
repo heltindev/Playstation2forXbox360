@@ -4,6 +4,8 @@
 
 > **Goal:** Make progress measurable and prevent the project from turning into an undefined full-game rewrite.
 
+**Choose the tool for the milestone:** [Tool directory](15-toolbox.md) · [Practical workflows](16-practical-workflows.md) · [Local environment check](../tools/check_environment.py).
+
 ## Milestone board
 
 | Phase | Objective | Concrete exit condition |

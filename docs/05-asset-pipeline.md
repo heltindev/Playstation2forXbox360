@@ -4,6 +4,8 @@
 
 > **Goal:** Separate original file storage from platform-neutral runtime data, with verifiable conversion and legal boundaries.
 
+**Recommended tools:** [ImHex](https://github.com/WerWolv/ImHex), [Kaitai Struct](https://kaitai.io/), [Blender](https://www.blender.org/), [vgmstream](https://github.com/vgmstream/vgmstream) and [FFmpeg](https://ffmpeg.org/). See the [asset tool directory](15-toolbox.md#stage-c--figure-out-proprietary-archives-and-assets) and [workflows 3–4](16-practical-workflows.md).
+
 ## Reuse versus rewrite
 
 Not every PS2 data file must be manually rewritten. A resource may contain models, animation curves, image data, compressed sound or cutscene video. The new runtime can sometimes read it after implementing the correct parser, but other formats need an offline conversion pipeline.

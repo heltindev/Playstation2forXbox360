@@ -16,7 +16,7 @@
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache--2.0-6b7280?style=flat-square" alt="Apache 2.0"></a>
   </p>
 
-  <p><a href="#overview">Overview</a> • <a href="#the-engineering-pipeline">Pipeline</a> • <a href="#documentation">Documentation</a> • <a href="#quick-start">Quick start</a> • <a href="#project-status">Status</a></p>
+  <p><a href="#overview">Overview</a> • <a href="#the-engineering-pipeline">Pipeline</a> • <a href="#documentation">Documentation</a> • <a href="#recommended-software">Software</a> • <a href="#quick-start">Quick start</a> • <a href="#project-status">Status</a></p>
 </div>
 
 ---
@@ -75,6 +75,22 @@ flowchart LR
 | 12 | [Troubleshooting](docs/12-troubleshooting.md) | Symptoms, probable causes and tests |
 | 13 | [Glossary](docs/13-glossary.md) | Technical terms explained |
 | 14 | [References](docs/14-references.md) | Upstream source material and tools |
+| 15 | **[Essential software and tool directory](docs/15-toolbox.md)** | Downloads, roles, limitations, and installation order |
+| 16 | **[Practical workflows](docs/16-practical-workflows.md)** | Guided exercises using PCSX2, Ghidra, ImHex, XSDK, and more |
+
+## Recommended software
+
+Stop guessing which tool to use. The [complete tool directory](docs/15-toolbox.md) explains **what each program does, when it is needed, what it produces, and what it cannot do**. Follow the [hands-on workflows](docs/16-practical-workflows.md) for step-by-step experiments.
+
+| Task | Recommended tools | What they help accomplish |
+|:--|:--|:--|
+| Disc inventory | [7-Zip](https://www.7-zip.org/) + [inventory script](tools/disc_inventory.py) | Find the boot ELF, list resources, record hashes |
+| Executable reverse engineering | [Ghidra](https://ghidra-sre.org/) + [PCSX2 debugger](https://pcsx2.net/docs/advanced/debugger/) | Read MIPS code and verify behavior |
+| Binary format investigation | [ImHex](https://github.com/WerWolv/ImHex) + [Kaitai Struct](https://kaitai.io/) | Document file headers and build parsers |
+| Asset research | [Blender](https://www.blender.org/) + [vgmstream](https://github.com/vgmstream/vgmstream) + [FFmpeg](https://ffmpeg.org/) | Verify supported converted models, audio and video |
+| Xbox 360 compilation | [XSDK](https://github.com/xenosworks/xsdk) + CMake + Ninja | Compile new native PowerPC code and package an XEX |
+
+**Local helpers included:** `python tools/check_environment.py` checks command-line tools; `python tools/disc_inventory.py <extracted-disc-folder> --sha256` produces a read-only, private metadata inventory. Neither converts a PS2 game into an XEX.
 
 ## Quick start
 

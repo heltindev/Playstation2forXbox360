@@ -4,6 +4,8 @@
 
 > **Goal:** Validate the native PowerPC/XEX development environment using an independently built sample. **This does not compile a PS2 game by itself.**
 
+**Software prerequisites and optional libraries:** [Essential Tool Directory](15-toolbox.md#stage-e--build-and-test-a-native-xbox-360-application) · [Guided XEX workflow](16-practical-workflows.md#workflow-5--build-a-native-xbox-360-xex).
+
 ## Why XSDK?
 
 [XSDK](https://github.com/xenosworks/xsdk) is an independent Xbox 360 homebrew SDK that targets the retail kernel on RGH/JTAG consoles. Its documented workflow compiles PowerPC code, links against its own runtime/library and packages the output into XEX2 using `tools/elf2xex.py`.

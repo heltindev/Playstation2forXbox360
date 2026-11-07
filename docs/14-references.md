@@ -4,6 +4,8 @@
 
 > **Goal:** Keep primary references visible and separate documented facts from assumptions. External documentation can change; verify versions at the source.
 
+For a **step-by-step program list with official download links**, use [Chapter 15: Essential Software and Tool Directory](15-toolbox.md). For actual usage examples, see [Chapter 16: Practical Workflows](16-practical-workflows.md).
+
 ## PlayStation 2 research
 
 ### PS2DEV / PS2SDK

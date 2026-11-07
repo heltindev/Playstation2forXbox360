@@ -19,12 +19,15 @@ REQUIRED = [
     ROOT / "CONTRIBUTING.md",
     ROOT / "LICENSE",
     ROOT / "assets" / "hero.svg",
+    ROOT / "tools" / "disc_inventory.py",
+    ROOT / "tools" / "check_environment.py",
+    ROOT / "tools" / "test_disc_inventory.py",
     *[ROOT / "docs" / f"{i:02d}-{name}.md" for i, name in enumerate([
         "start-here", "ps2-architecture", "disc-and-formats",
         "reverse-engineering", "code-reconstruction", "asset-pipeline",
         "xbox360-architecture", "platform-porting", "build-and-xex",
         "testing", "roadmap", "legal", "troubleshooting",
-        "glossary", "references",
+        "glossary", "references", "toolbox", "practical-workflows",
     ])],
 ]
 
